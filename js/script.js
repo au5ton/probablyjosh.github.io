@@ -19,6 +19,6 @@ function addGH(id, index) {
 addGH('first-repo', 0)
 addGH('second-repo', 1)
 
-document.getElementById('first-post').innerHTML = '<a href="' +  posts[0]['url'] + '"> ' + posts[0]['title'] + '</a>'
-document.getElementById('second-post').innerHTML = '<a href="' +  posts[1]['url'] + '"> ' + posts[1]['title'] + '</a>'
-document.getElementById('now-playing').innerHTML = '<a href="' + song['recenttracks']['track'][0]['url'] + '">' + song['recenttracks']['track'][0]['name'] + '</a>'
+document.getElementById('first-post').innerHTML = '<a href="' +  posts[0]['url'] + '"> ' + posts[0]['title'] + '</a>';
+document.getElementById('now-playing').innerHTML = song['recenttracks']['track'][0]['name'];
+document.getElementById('artist').innerHTML = song['recenttracks']['track'][0]['artist']['#text'];
