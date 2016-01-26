@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/josht
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://joshtrommel.com
+  * I am josht (https://keybase.io/josht) on keybase.
+  * I have a public key with fingerprint E8F0 FEE3 5E26 C844 E326  C62B 4FE5 E50E F97A 3965
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010178f8e55b5005c80964184aed88b83937e201419fc6d64647721d9f7fee5bc2320a",
+            "fingerprint": "e8f0fee35e26c844e326c62b4fe5e50ef97a3965",
+            "host": "keybase.io",
+            "key_id": "4fe5e50ef97a3965",
+            "kid": "010178f8e55b5005c80964184aed88b83937e201419fc6d64647721d9f7fee5bc2320a",
+            "uid": "8feb524fc74814d65f24b3c81d205800",
+            "username": "josht"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8cd04e1d9b9b7c49b258b081b6e461856a30312348abe5f9b4da8317baad925f0f"
+            ]
+        },
+        "service": {
+            "hostname": "joshtrommel.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1453794961,
+    "expire_in": 157680000,
+    "prev": "57082d31189bd3fd486c5961a7a21a4149fc87df5387e702a7b462a6d01a0a4f",
+    "seqno": 54,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMOFAnicrVJrUFVVGAVJKt6SwQyE2KlAG+Cexz7n7HObAJECQ3Kwmes4SJfz2Ody
+unDP5T54m5jDZL4wo3RMsbGh8gWDMCKavHwQOIE4BDqEw1iAMTxySEYrx/ZlaqYf
+/ezXN3t/61trfWvvK4E+Xn7eG8bHgx6VCcj7eue828v0dczH5YSkK6WEsZywosWC
+8hXkdJmtmkIYCZIiKR6qELGsxJIkK0NS4AAFgYgUCCXICAyPaJIClKDKnMIBDvA8
+TSmCyqsIsZJMMzQpEnGEqtksyGF3aDYXpkVQJXGfYRHNyRAAxODK0RJQEYtYEqkC
+LzICx+LBPN3pmcDmJNGJEjQd3+GDedHef+D/Z9/uRTqoIomlgSrzAFJA4ViVBhIj
+Q0qhSRaSpAfoRA6bWIAw+j3dmecitsYRDlSkW5EnVKdmwY6dhDGbgLJCAoSlJEHi
+ZSBINAslElIShwBHQZYTGZKhaAZAUUKsKkhAESFD8ZIoKgLN4uCIHMyN5Yo0eZHc
+E9G/pR16QQHKT5D1AuzL7tBduqzn42aey2U3eny5Su0ecDGSzH/TmCXNpuAnwgNF
+yOHUdBthpDBSdmkeXgqwDC8AgaPiCFRi1xzIrHkQLM/h7UnSI4OKMCXLk5BWGIqC
+gqQwqgIgJ7N4TORFmhIBBXDckFdUloE84kla5CXA0SKnkJRIikAlPIsV2nTCyALs
+U7RgTpydTXS5HYjY2tW55Skvbz8v36VLPH/Xy+/ZkH9+9OT24CfvV7qnj2SO7hgl
+Xn84lFw9/Tj+SUOGZSp4xeqS+oOHqy13V687urw+eqzLFWP9w//nQ5q/MpPyUsh8
+SEjbyKnYXZ17zufG6tc2JQ3dL3YMnJ67+XLkLyMWU80W6/EP9gydjdx+6w0frSd+
+0+hwQxB6izv//VUiacrKFoRduzh7qTVuBjVw4eeaTm6fG05vC8s53BBblzaZWvlJ
+T3Zj66kfjbsu1+5f+PZRi39jxpnepREPWg2frYyuSkq6VfhObWDWr2RUaswN+/Ot
+voaBdlPuN3uz7/0QMQY7fHqDq05Te17tr1l2cTzRNpFN+WV0RF+WJ48ZFvrI7/J/
+N0yioaid25oXCvYdebc6jTav/TC3rGPlwL0L5s7sjc88133iwObln27uP7osudhy
+8MCam/uk/unfGtuTZ7LA+omfJobu3+sbOZS40XIpsiVzorK5fEPa/pYad8UdZWXl
+7aIXSnwKm5PjLpQaQqXau6bjGeGx885eq3ynTQ7dnRjvu2Rbi36ju6SibDwnPSQh
+yvfFua4Aa8mDbtebO/osae4zJV+5bv9Jnx2voJZ8WfbR51NS12snXumYbZqbrY0x
+FB87mfJF/du9a6J3DoaHpa4zWKMtTRkpCdcD2+qC1s+G3urZXbhq0LRK2RbQuTdg
+IuXpnLwrI+fGeHbUnZUZMWyoW3F3L3rY1t7l35h+tcr0ePAvW0jd3A==
+=i3BD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/josht
+
+==================================================================
+
