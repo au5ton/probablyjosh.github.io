@@ -168,6 +168,14 @@ html#joshtrommel_personal {
     margin-bottom: 9px;
 }
 
+#joshtrommel_personal .highlight {
+    /*background: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;*/
+    font-weight: bold;
+}
+
 #joshtrommel_personal h3 {
     font-size: 18px;
 }
