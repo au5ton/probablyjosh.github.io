@@ -1,0 +1,18 @@
+body {
+  color: #777;
+  background-color: #fff; }
+  body .wrapper {
+    font-size: 1.3em;
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    font-family: "Helvetica", sans-serif; }
+    body .wrapper a {
+      color: inherit; }
+    body .wrapper p {
+      font-weight: normal; }
+    body .wrapper h1, body .wrapper h2, body .wrapper a:hover {
+      color: #000; }
+    body .wrapper hr {
+      margin: 5vh; }
+    body .wrapper #heart:hover {
+      color: red; }

@@ -2,3 +2,4 @@
 .DS_Store
 config.codekit
 README.html
+node_modules/
