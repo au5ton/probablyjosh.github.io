@@ -1,71 +1,102 @@
 <!DOCTYPE html>
-<!-- U+1F609 -->
-<html xmlns="http://www.w3.org/1999/xhtml" id="joshtrommel_personal" class="joshtrommel_fixed_personal joshtrommel_vip_personal"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Josh Trommel</title>
-    <meta content="Josh Trommel is a web developer from Vancouver." name="description">
-    <meta name="viewport" content="width=device-width">
-    <link href="files/style.css" media="screen" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #joshtrommel .close {
-            display: none;
-        }
+<html lang="en">
+	<head>
+		<title>Josh Trommel</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bower_components/skeleton/css/normalize.css">
+		<link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+	</head>
+	<body>
+    <div class="container">
+	    <div class="row">
+	        <div class="twelve columns">
+	            <h4 id="intro">Hi, I'm Josh</h4>
+	        </div>
+	    </div>
 
-        #joshtrommel #wbars {
-            overflow-y: auto;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-            height: auto;
-        }
+			<div class="row">
+				<div class="twelve columns">
+					<p> I'm a 16 year old software engineer from Vancouver, Canada,
+							with a passion for creation. I'm currently working on <a href="https://github.com/madebybright/Nimble">Nimble</a>,
+							a cross-platform Wolfram-Alpha® menubar client, with <a href="http://madebybright.com">Bright</a>, a little startup I co-founded.
+					</p>
+				</div>
+			</div>
 
-        #joshtrommel .wb_container {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
+			<div class="row">
+				<div class="twelve columns">
+					<p>Since the age of 2 I've had a passion for creation, primarily on computers. I started using computers as a
+						toddler and ever since then my passion has only increased. I found programming at 11, and it instantly intruiged me as a tool
+						I could use to create something of my own, with nearly infinite possibilities and flexibility. And I've been learning since then.
+						Most of the code I've written in the last few years is available on <a href="https://github.com/trmml">GitHub</a>,
+						including <a href="https://github.com/trmml/trmml.github.io">this website</a>.</p>
+				</div>
+			</div>
 
-        #joshtrommel .wb_container &gt;
-        .wb_footer {
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-            -webkit-border-radius: none;
-            -moz-border-radius: none;
-            border-radius: none;
-        }
-    </style>
-<style type="text/css"></style></head>
+			<div class="row">
+				<div class="twelve columns">
+					<p>Outside of computers, I also love working with film, however that may be. Above all, directing, <a href="http://joshtrommel.com/script">screenwriting</a>, and editing. I've held this passion for over 7 years,
+						finding it in my high school's video production summer camp in 2009. I attended every year following, and I've been creating films ever since. Although I currently do not have an outlet where I publish my work in film,
+						I'm considering creating a Vimeo account in the near future and exporting my work there. Not only do I love to create films, I love to watch them as well. I keep track of the movies
+						and TV shows I watch over at <a href="https://trakt.tv/users/probablyjosh">Trakt.tv</a>.</p>
+				</div>
+			</div>
 
-<body>
-    <div id="wbars_all">
-        <div class="wb_container wb_base_container">
-            <div id="wbars">
-                <div class="wb_content legal_pp">
-                    <div class="one_line_col">
-                        <h2 style="padding-top: 0;">Josh Trommel</h2>
-                        <p>Hi, I'm Josh. I'm a 16 year old software engineer from <a href="https://www.google.ca/maps/place/Vancouver,+BC/@49.256042,-123.2639963,11z/data=!3m1!4b1!4m2!3m1!1s0x548673f143a94fb3:0xbb9196ea9b81f38b">Vancouver, Canada</a>, with a passion for creation. I'm currently working on <a href="https://github.com/madebybright/Nimble">Nimble</a>, a cross-platform Wolfram-Alpha® menubar client, with <a href="http://madebybright.com">Bright</a>, a little startup I co-founded.</p>
+			<div class="row">
+				<div class="twelve columns">
+					<p>Photography is also something I've been very fond of for a little over 5 years. Unlike film, I publish my photos online, which you can find on my <a href="https://instagram.com/joshtrommel">Instagram</a>.
+					I enjoy photography because the ability to capture and preseve a memory forever is something special, and
+					being able to see the beauty in every day life is also something I want to challenge myself to do. It's also a great
+					creative outlet, so when I'm not programming I like to take photos with either my Canon EOS REBEL T3i or my iPhone 6.</p>
+				</div>
+			</div>
 
-                        <h3>About Me</h3>
-                        <p>Since the age of 2 I've had a passion for creation, primarily on computers. I started using computers as a toddler and ever since then my passion has only increased. I found programming at 11, and it instantly intruiged me as a tool I could use to create something of my own, with nearly infinite possibilities and flexibility. And I've been learning since then. Most of the code I've written in the last few years is available on my GitHub, <a href="https://github.com/trmml">github.com/trmml</a>, if you'd like to see it. Feel free to fork any project and create a pull request. I'll happily accept!</p>
+			<!-- Photos -->
+			<div class="row">
+				<div class="one-third column">
+					<span id="first-photo"></span>
+					<p class="caption" id="first-photo-caption"></p>
+				</div>
+				<div class="one-third column">
+					<span id="second-photo"></span>
+					<p class="caption" id="second-photo-caption"></p>
+				</div>
+				<div class="one-third column">
+					<span id="third-photo"></span>
+					<p class="caption" id="third-photo-caption"></p>
+				</div>
+			</div>
 
-                        <p>Outside of computers, I also love working with film, however that may be. Above all, directing, screenwriting (I'm currently writing <a href="http://joshtrommel.com/script">joshtrommel.com/script</a>), and editing. I've held this passion for over 7 years, finding it in my high school's video production summer camp in 2009. I attended every year following, and I've been creating films ever since. Although I currently do not have an outlet where I publish my work in film, I'm considering creating a Vimeo account in the near future and exporting my work there. Not only do I love to create films, I love to watch them as well. I keep track of the movies and TV shows I watch over at Trakt.tv, <a href="https://trakt.tv/users/probablyjosh">trakt.tv/users/probablyjosh</a>.</p>
+			<div class="row">
+				<div class="twelve columns">
+					<p>Music has also been a huge part of my life, and I'm sure I'm not alone with that. I enjoy keeping track of the music I listen to, as I find analytically overviewing my music genre habits is a good way at
+						keeping track of many factors of my life, primarily my mood. <span id="artists"></span> I keep track of the music I listen to on <a href="https://last.fm/user/jshtrmml">Last.fm</a>. I'm also starting to write and record some of my own music,
+						which I've been uploading to SoundCloud. More on that soon.</p>
+				</div>
+			</div>
 
-                        <p>Photography is also something I've been very fond of for a little over 5 years. Unlike film, I publish my photos online, which you can find on my Instagram, <a href="https://instagram.com/joshtrommel">instagram.com/joshtrommel</a>.</p>
+			<div class="row">
+				<div class="twelve columns">
+					<p>I also love to write, and I've had this passion for as long as I can remember. As I could never find anything interesting to write about as a child, I decided to buy a journal to write about my day when I was 6 years old.
+						My grandfather gave me one of his Uni-Ball pens and I was set. I filled up 3 full journals. Recently my writing has taken to online, primarily <a href="https://nulljosh.svbtle.com">my blog</a>.</p>
+				</div>
+			</div>
 
-                        <p>Music has also been a huge part of my life, and I'm sure I'm not alone with that. I enjoy keeping track of the music I listen to, as I find analytically overviewing my music genre habits is a good way at keeping track of many factors of my life, primarily my mood. I keep track of the music I listen to on Last.fm, at <a href="https://last.fm/user/jshtrmml">last.fm/user/jshtrmml</a>. <span id="now-playing"></span> <span id="artists"></span> I'm also starting to write and record some of my own music, which I've been uploading to SoundCloud. <span class="highlight">More on that soon.</a></p>
+			<div class="row">
+				<div class="twelve columns">
+					<p>Want to get in touch? You can reach me through <a href="https://twitter.com/JoshTrommel">Twitter</a> or <a href="mailto:joshtrommel@gmail.com">shoot me an email</a>.</p>
+				</div>
+			</div>
 
-                        <p>I also love to write, and I've had this passion for as long as I can remember. As I could never find anything interesting to write about as a child, I decided to buy a journal to write about my day when I was 6 years old. My grandfather gave me one of his Uni-Ball pens and I was set. I filled up 3 full journals. Recently my writing has taken to online, primarily my blog, <a href="https://nulljosh.svbtle.com">nulljosh.svbtle.com</a>.
-
-
-                        <h3>Contact</h3>
-                        <p>Need to get in touch? You can reach me through Twitter at <a href="https://www.twitter.com/JoshTrommel">@JoshTrommel</a> or by sending an email to <a href="mailto:joshtrommel@gmail.com">joshtrommel@gmail.com</a>.</p>
-                    </div>
-                    <div class="wb_footer">
-                        <p>Made with &hearts; in Vancouver, British Columbia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+			<div class="row">
+				<div class="twelve columns">
+					<hr>
+					<footer>Made with <span id="heart">&hearts;</span> in Vancouver, British Columbia.</footer>
+				</div>
+			</div>
     </div>
-    <script src="files/script.js"></script>
-    </body>
+		<script src="js/script.js"></script>
+	</body>
 </html>
