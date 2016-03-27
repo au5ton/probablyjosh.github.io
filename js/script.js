@@ -28,7 +28,7 @@ function generatePhoto(name, index) {
 	document.getElementById(name + '-photo-caption').innerHTML = photos[index]['location']['name'] + " – &hearts; " + photos[index]['likes']['count'];
 }
 
-var nowPlaying = "Hi, I'm Josh, and I'm listening to <a href=\"" + song['recenttracks']['track'][0]['url'] + "\"><button class=\"button button-primary\">" + song['recenttracks']['track'][0]['name'] + "</button></a> by " + song['recenttracks']['track'][0]['artist']['#text'] + '.';
+var nowPlaying = "Hi, I'm Josh, and I'm listening to <a href=\"" + song['recenttracks']['track'][0]['url'] + "\">" + song['recenttracks']['track'][0]['name'] + "</a> by " + song['recenttracks']['track'][0]['artist']['#text'] + '.';
 var artists = "Lately, " + artistNames[0] + ' & ' + artistNames[1] + ' have been my favourite artists.';
 document.getElementById('intro').innerHTML = nowPlaying
 document.getElementById('artists').innerHTML = artists;
