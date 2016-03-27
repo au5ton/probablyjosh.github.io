@@ -1,5 +1,6 @@
 .container {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
   .container .caption {
     margin-top: -10px; }
   .container img {
