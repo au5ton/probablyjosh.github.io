@@ -7,7 +7,12 @@
 		<link rel="stylesheet" href="bower_components/skeleton/css/normalize.css">
 		<link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
 		<link rel="stylesheet" href="bower_components/hover/css/hover-min.css">
+		<link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
 		<link rel="stylesheet" href="stylesheets/style.css">
+		<script src="bower_components/wow/dist/wow.min.js">
+			// very initialize
+			new WOW().init();
+		</script>
 	</head>
 	<body>
     <div class="container">
@@ -55,18 +60,20 @@
 			</div>
 
 			<!-- Photos -->
-			<div class="row">
-				<div class="one-third column">
-					<span class="hvr-bob" id="first-photo"></span>
-					<p class="caption" id="first-photo-caption"></p>
-				</div>
-				<div class="one-third column">
-					<span class="hvr-bob" id="second-photo"></span>
-					<p class="caption" id="second-photo-caption"></p>
-				</div>
-				<div class="one-third column">
-					<span class="hvr-bob" id="third-photo"></span>
-					<p class="caption" id="third-photo-caption"></p>
+			<div class="photos">
+				<div class="row">
+					<div class="one-third column">
+						<span class="hvr-float" id="first-photo"></span>
+						<p class="caption" id="first-photo-caption"></p>
+					</div>
+					<div class="one-third column">
+						<span class="hvr-float" id="second-photo"></span>
+						<p class="caption" id="second-photo-caption"></p>
+					</div>
+					<div class="one-third column">
+						<span class="hvr-float" id="third-photo"></span>
+						<p class="caption" id="third-photo-caption"></p>
+					</div>
 				</div>
 			</div>
 
@@ -91,7 +98,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row wow bounceInUp">
 				<div class="twelve columns">
 					<hr>
 					<footer>Made with <span id="heart">&hearts;</span> in Vancouver, British Columbia.</footer>
