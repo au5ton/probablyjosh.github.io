@@ -1,5 +1,5 @@
 var songResponse = get('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jshtrmml&api_key=0a7d3b25ed857f679eba1a353e98a658&format=json')
-var artistsResponse = get('http://ws.audioscrobbler.com/2.0/?method=user.getTopArtists&user=jshtrmml&period=1month&api_key=0a7d3b25ed857f679eba1a353e98a658&format=json')
+var artistsResponse = get('http://ws.audioscrobbler.com/2.0/?method=user.getTopArtists&user=jshtrmml&period=7day&limit=5&api_key=0a7d3b25ed857f679eba1a353e98a658&format=json')
 var instagramResponse = get('https://public-insta-api.herokuapp.com/joshtrommel/latest')
 var githubResponse = get('https://api.github.com/users/trmml/repos?sort=pushed&type=all')
 var song = JSON.parse(songResponse)
