@@ -2,10 +2,12 @@
   margin-top: 50px;
   margin-bottom: 50px; }
   .container .caption {
-    margin-top: -10px; }
-  .container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px; }
+    padding-top: -20px; }
+  .container .photos {
+    max-height: 100%; }
+    .container .photos img {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px; }
