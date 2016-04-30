@@ -32,7 +32,9 @@ function generatePhoto(name, index) {
 
 var nowPlaying = "Hi, I'm Josh, and I'm listening to <a href=\"" + song['recenttracks']['track'][0]['url'] + "\">" + song['recenttracks']['track'][0]['name'] + "</a> by " + song['recenttracks']['track'][0]['artist']['#text'] + '.';
 var artists = "Lately, " + artistNames[0] + ' & ' + artistNames[1] + ' have been my favourite artists.';
-var gh = " Recently, I've been working on <a href=\"" + repos[0]['owner']['url'] + "\">" + repos[0]['name'] + "</a> and <a href=\"" + repos[1]['owner']['url'] + "\">" + repos[1]['name'] + "</a>."
+var gh = " Recently, I've been working on <a href=\"" + repos[0]['html_url'] + "\">" + repos[0]['name'] + "</a>, and <a href=\"" + repos[1]['html_url'] + "\">" + repos[1]['name'] + "</a>."
+
+// console.log(repos[0]['html_url'])
 document.getElementById('github').innerHTML = gh;
 document.getElementById('intro').innerHTML = nowPlaying;
 document.getElementById('artists').innerHTML = artists;
